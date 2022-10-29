@@ -1,0 +1,62 @@
+.JoinPage {
+  background-color: #9ED2C6;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.JoinContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.JoinContainer > img {
+  height: 10vmax;
+  /* padding: 1vmax; */
+  margin-bottom: 3vmax;
+  border: 0.1px solid #54BAB9;
+  border-radius: 2vmax;
+}
+
+.JoinContainer > h1 {
+  color: #3b8281;
+  font-size: 2.5vmax;
+  width: 23vmax;
+  border-bottom: 0.2vmax solid #54BAB9;
+  text-align: center;
+  padding: 1vmax;
+  margin-bottom: 2vmax;
+}
+
+#joinInput {
+  width: 22vmax;
+  padding: 1.5vmax;
+  border: none;
+  outline: none;
+  font-size: 1.2vmax;
+  margin: 1vmax;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.joinBtn {
+  width: 25vmax;
+  padding: 1.5vmax;
+  margin: 1vmax;
+  border: none;
+  outline: none;
+  font-size: 1.2vmax;
+  background-color: #b79e73;
+  color: white;
+  transition: all 0.4s;
+  cursor: pointer;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.joinBtn:hover {
+  background-color: #e2a63ea6;
+}
